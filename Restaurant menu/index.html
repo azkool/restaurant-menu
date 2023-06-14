@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant-Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font smythe link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-banner">
+            <h1>Olamide suya spot</h1>
+            <p class="headP">The best suya spot and delicious meal in town.</p>
+        </div>
+    </header>
+        
+    <main>
+        <div class="food-items" id="food-items">
+			<!-- food items here!! -->
+		</div>
+        <section>
+            <div class="order" id="order">
+                <!-- Ordered food goes here!! -->
+            </div>
+        </section>
+        <div class="payment-modal" id="payment-modal">
+            <div>
+                <p class="modal-title">Enter your card details</p>
+                <form action="#">
+                    <input type="text" id="name" class="name-input" placeholder="Enter your name" required>
+                    <input type="text" class="card-number-input" placeholder="Enter your card number" required>
+                    <input type="text" id="name" class="security-code" placeholder="Enter your CVV" required>
+                    <button type="submit" id="pay-btn">Make Payment</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
